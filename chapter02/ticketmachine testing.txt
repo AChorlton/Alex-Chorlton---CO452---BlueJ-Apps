@@ -1,0 +1,95 @@
+TicketMachine ticketMa1 = new TicketMachine();
+ticketMa1.insert200();
+cash in200
+Balance200
+ticketMa1.addAmersham();
+ticketMa1.printTicket();
+You must insert at least: 100 more pence.
+ticketMa1.getBalance()
+    returned int 200
+ticketMa1.insert100();
+cash in100
+Balance300
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# Ticket
+# 300 Pence.
+##################
+
+ticketMa1.displayBalance();
+Balance0
+ticketMa1.insert200();
+cash in200
+Balance200
+ticketMa1.insert200();
+cash in200
+Balance400
+ticketMa1.addAylesbury();
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# Ticket
+# 220 Pence.
+##################
+
+ticketMa1.getBalance()
+    returned int 180
+ticketMa1.refundBalance()
+    returned int 180
+ticketMa1.getBalance()
+    returned int 0
+ticketMa1.insert200();
+cash in200
+Balance200
+ticketMa1.insert20();
+cash in20
+Balance220
+ticketMa1.addAylesbury();
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# Ticket
+# 220 Pence.
+##################
+
+ticketMa1.displayBalance();
+Balance0
+ticketMa1.insert200();
+cash in200
+Balance200
+ticketMa1.insert100();
+cash in100
+Balance300
+ticketMa1.addAmersham();
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# Ticket
+# 300 Pence.
+##################
+
+ticketMa1.displayBalance();
+Balance0
+ticketMa1.insert200();
+cash in200
+Balance200
+ticketMa1.insert100();
+cash in100
+Balance300
+ticketMa1.insert20();
+cash in20
+Balance320
+ticketMa1.insert10();
+cash in10
+Balance330
+ticketMa1.addHighWycombe();
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# Ticket
+# 330 Pence.
+##################
+
+ticketMa1.getBalance()
+    returned int 0
