@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Module
+comment0.text=\r\n\ A\ Module\ is\ part\ of\ a\ course\ that\ a\ Student\r\n\ will\ complete.\ \ When\ complete\ a\ Module\ is\ awarded\r\n\ a\ mark\ and\ providing\ it\ is\ a\ pass\ mark\ students\r\n\ gain\ credit\ for\ completing\ the\ Module\r\n\r\n\ @author\ Alex\ Chorlton\r\n\ @version\ 0.1\r\n
+comment1.params=code\ title
+comment1.target=Module(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getMark()
+comment2.text=\r\n\ This\ will\ present\ to\ the\ user\ the\ studednts\ mark\ which\ will\ be\ between\ 0\ and\ 100.\r\n
+comment3.params=
+comment3.target=boolean\ isComplete()
+comment4.params=mark
+comment4.target=void\ awardMark(int)
+comment5.params=
+comment5.target=void\ print()
+numComments=6
