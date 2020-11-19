@@ -1,0 +1,184 @@
+StockManager stock = new StockManager();
+StockDemo demo = new StockDemo(stock);
+demo.runDemo();
+
+*******************************
+  Products Management System
+     by Alex Chorlton
+*******************************
+
+100: AMD Ryzen 5 5600x stock level: 0
+101: AMD Ryzen 9 5950x stock level: 0
+102: Intel I5 10500k stock level: 0
+103: Intel I9 10900k stock level: 0
+104: NVIDIA RTX 3070 stock level: 0
+105: NVIDIA RTX 3080 stock level: 0
+106: AMD RADEON RX 6800 stock level: 0
+107: AMD RADEON RX 6900xt stock level: 0
+108: Corsair Vengeance DDR4 8GB 3200MHz stock level: 0
+109: Corsair Vengeance DDR4 16GB 3200MHz stock level: 0
+
+
+100: AMD Ryzen 5 5600x stock level: 0
+    ** Re-Stocked by 5 ***
+100: AMD Ryzen 5 5600x stock level: 0
+
+
+101: AMD Ryzen 9 5950x stock level: 0
+    ** Re-Stocked by 3 ***
+101: AMD Ryzen 9 5950x stock level: 0
+
+
+102: Intel I5 10500k stock level: 0
+    ** Re-Stocked by 6 ***
+102: Intel I5 10500k stock level: 0
+
+
+103: Intel I9 10900k stock level: 0
+    ** Re-Stocked by 2 ***
+103: Intel I9 10900k stock level: 0
+
+
+104: NVIDIA RTX 3070 stock level: 0
+    ** Re-Stocked by 4 ***
+104: NVIDIA RTX 3070 stock level: 0
+
+
+105: NVIDIA RTX 3080 stock level: 0
+    ** Re-Stocked by 1 ***
+105: NVIDIA RTX 3080 stock level: 0
+
+
+106: AMD RADEON RX 6800 stock level: 0
+    ** Re-Stocked by 4 ***
+106: AMD RADEON RX 6800 stock level: 0
+
+
+107: AMD RADEON RX 6900xt stock level: 0
+    ** Re-Stocked by 5 ***
+107: AMD RADEON RX 6900xt stock level: 0
+
+
+108: Corsair Vengeance DDR4 8GB 3200MHz stock level: 0
+    ** Re-Stocked by 6 ***
+108: Corsair Vengeance DDR4 8GB 3200MHz stock level: 0
+
+
+*******************************
+  Products Management System
+     by Alex Chorlton
+*******************************
+
+100: AMD Ryzen 5 5600x stock level: 0
+101: AMD Ryzen 9 5950x stock level: 0
+102: Intel I5 10500k stock level: 0
+103: Intel I9 10900k stock level: 0
+104: NVIDIA RTX 3070 stock level: 0
+105: NVIDIA RTX 3080 stock level: 0
+106: AMD RADEON RX 6800 stock level: 0
+107: AMD RADEON RX 6900xt stock level: 0
+108: Corsair Vengeance DDR4 8GB 3200MHz stock level: 0
+109: Corsair Vengeance DDR4 16GB 3200MHz stock level: 0
+
+
+*******************************
+  Products Management System
+     by Alex Chorlton
+*******************************
+
+100: AMD Ryzen 5 5600x stock level: 0
+101: AMD Ryzen 9 5950x stock level: 0
+102: Intel I5 10500k stock level: 0
+103: Intel I9 10900k stock level: 0
+104: NVIDIA RTX 3070 stock level: 0
+105: NVIDIA RTX 3080 stock level: 0
+106: AMD RADEON RX 6800 stock level: 0
+107: AMD RADEON RX 6900xt stock level: 0
+108: Corsair Vengeance DDR4 8GB 3200MHz stock level: 0
+109: Corsair Vengeance DDR4 16GB 3200MHz stock level: 0
+
+Selling Product: Order Quantity = 5
+100: AMD Ryzen 5 5600x stock level: 0
+  0 items sold!
+
+Selling Product: Order Quantity = 2
+101: AMD Ryzen 9 5950x stock level: 0
+  0 items sold!
+
+Selling Product: Order Quantity = 5
+102: Intel I5 10500k stock level: 0
+  0 items sold!
+
+Selling Product: Order Quantity = 2
+103: Intel I9 10900k stock level: 0
+  0 items sold!
+
+Selling Product: Order Quantity = 5
+104: NVIDIA RTX 3070 stock level: 0
+  0 items sold!
+
+Selling Product: Order Quantity = 6
+105: NVIDIA RTX 3080 stock level: 0
+  0 items sold!
+
+Selling Product: Order Quantity = 5
+106: AMD RADEON RX 6800 stock level: 0
+  0 items sold!
+
+Selling Product: Order Quantity = 1
+107: AMD RADEON RX 6900xt stock level: 0
+  0 items sold!
+
+Selling Product: Order Quantity = 2
+108: Corsair Vengeance DDR4 8GB 3200MHz stock level: 0
+  0 items sold!
+
+
+*******************************
+  Products Management System
+     by Alex Chorlton
+*******************************
+
+100: AMD Ryzen 5 5600x stock level: 0
+101: AMD Ryzen 9 5950x stock level: 0
+102: Intel I5 10500k stock level: 0
+103: Intel I9 10900k stock level: 0
+104: NVIDIA RTX 3070 stock level: 0
+105: NVIDIA RTX 3080 stock level: 0
+106: AMD RADEON RX 6800 stock level: 0
+107: AMD RADEON RX 6900xt stock level: 0
+108: Corsair Vengeance DDR4 8GB 3200MHz stock level: 0
+109: Corsair Vengeance DDR4 16GB 3200MHz stock level: 0
+
+
+*******************************
+  Products Management System
+     by Alex Chorlton
+*******************************
+
+100: AMD Ryzen 5 5600x stock level: 0
+101: AMD Ryzen 9 5950x stock level: 0
+102: Intel I5 10500k stock level: 0
+103: Intel I9 10900k stock level: 0
+104: NVIDIA RTX 3070 stock level: 0
+105: NVIDIA RTX 3080 stock level: 0
+106: AMD RADEON RX 6800 stock level: 0
+107: AMD RADEON RX 6900xt stock level: 0
+108: Corsair Vengeance DDR4 8GB 3200MHz stock level: 0
+109: Corsair Vengeance DDR4 16GB 3200MHz stock level: 0
+
+
+ Product ID 102 REMOVED!
+
+103: Intel I9 10900k stock level: 0
+***RENAMED***
+103: NVIDIA RTX 3080 stock level: 0
+
+Searching for NVIDIA
+
+103: NVIDIA RTX 3080 stock level: 0
+104: NVIDIA RTX 3070 stock level: 0
+105: NVIDIA RTX 3080 stock level: 0
+
+There are 3 products containing NVIDIA in their name!
+
