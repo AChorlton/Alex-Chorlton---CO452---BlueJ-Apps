@@ -42,15 +42,6 @@ public class Module
         return complete;
     }
     
-    public void awardMark(int mark)
-    {
-        if((mark >= 0) && (mark <= 100))
-        {
-            this.mark = mark;
-            complete = true;
-        }
-    }
-    
     public void print()
     {
         System.out.print("\tModule " + moduleCode);
@@ -64,5 +55,14 @@ public class Module
         {
             System.out.println(" is not completed yet!");
         }
-    }    
+    }
+    
+    public void awardMark(int mark)
+    {
+        if((mark >= 0) && (mark <= 100))
+        {
+            this.mark = mark;
+            complete = true;
+        }
+    }
 }

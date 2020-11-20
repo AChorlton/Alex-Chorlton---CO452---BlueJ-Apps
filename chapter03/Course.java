@@ -26,7 +26,7 @@ public class Course
     private Module module3;
     private Module module4;
 
-    /**
+   /**
      * Constructor for objects of class Course
      */
     public Course(String codeNo, String name)
@@ -40,7 +40,7 @@ public class Course
         complete = false;
     }
 
-    /**
+   /**
      * Add up to 4 different modules into a course.
      */
     public void addModule(int number, Module module)
@@ -56,19 +56,7 @@ public class Course
         }
     }
     
-    /**
-     * This prints out the detais of the course so that the user is able to view them.
-     */
-    public void print()
-    {
-        // put your code here
-        System.out.println("Course " + courseNumber + " - " + courseName);
-        System.out.println();
-        
-        printModules();
-    }
-    
-    /**
+   /**
      * This prints out all the modules that exist in this course as well as their details.
      */
     private void printModules()
@@ -110,6 +98,18 @@ public class Course
            totalCredits += module.CREDIT;
        }
    }
+   
+   /**
+     * This prints out the detais of the course so that the user is able to view them.
+     */
+    public void print()
+    {
+        // put your code here
+        System.out.println("Course " + courseNumber + " - " + courseName);
+        System.out.println();
+        
+        printModules();
+    }
    
    private String calculateGrade()
    {

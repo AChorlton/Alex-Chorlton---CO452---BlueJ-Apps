@@ -23,6 +23,11 @@ public class Student
         idNumber = studentID;
         credits = 0;
     }
+    
+    public void enrolOnCourse(Course course)
+    {
+        this.course = course;
+    }
 
     /**
      * This will present the name of the student to the user of the system.
@@ -41,26 +46,13 @@ public class Student
     }
 
     /**
-     * This will present the ID number of the student to the user of the system.
-     */
-    public String getStudentID()
-    {
-        return idNumber;
-    }
-
-    /**
      * Add some credits to the individual students which have been selected.
      */
     public void addCredits(int additionalPoints)
     {
         credits += additionalPoints;
     }
-
-    public void enrolOnCourse(Course course)
-    {
-        this.course = course;
-    }
-    
+   
     /**
      * This will present the number of credits of an individual student to the user of the system.
      */
@@ -76,6 +68,14 @@ public class Student
     public String getLoginName()
     {
         return studentName.substring(0,4) + idNumber.substring(0,3);
+    }
+    
+    /**
+     * This will present the ID number of the student to the user of the system.
+     */
+    public String getStudentID()
+    {
+        return idNumber;
     }
     
     /**
