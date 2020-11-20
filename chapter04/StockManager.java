@@ -18,15 +18,6 @@ public class StockManager
     {
         stock = new ArrayList<>();
     }
-
-    /**
-     * Add a product to the list.
-     * @param item The item to be added.
-     */
-    public void addProduct(Product item)
-    {
-        stock.add(item);
-    }
     
     /**
      * Show that the system has received a delivery of a particular product.
@@ -51,6 +42,15 @@ public class StockManager
         }
     }
    
+    /**
+     * Add a product to the list.
+     * @param item The item to be added.
+     */
+    public void addProduct(Product item)
+    {
+        stock.add(item);
+    }
+    
     /**
      * Try to find a product in the stock with the given id.
      * @return The identified product, or null if there is none
@@ -99,7 +99,7 @@ public class StockManager
     public void printAllProducts()
     {
        System.out.println("\n*******************************");
-       System.out.println("  Products Management System");
+       System.out.println("  Product Management System");
        System.out.println("     by Alex Chorlton ");
        System.out.println("*******************************\n");
        

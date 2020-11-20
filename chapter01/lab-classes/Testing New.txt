@@ -1,0 +1,38 @@
+LabClass labClass1 = new LabClass(3);
+Student student1 = new Student("Alex", "1");
+Student student2 = new Student("Daniel", "2");
+Student student3 = new Student("Gillian", "3");
+labClass1.enrollStudent(student1);
+labClass1.enrollStudent(student2);
+labClass1.enrollStudent(student3);
+Course course1 = new Course("G100", "Computing");
+course1.print();
+Course G100 - Computing
+student2.addCourse(course1);
+student1.addCourse(course1);
+student3.addCourse(course1);
+course1.print();
+Course G100 - Computing
+student3.print();
+Gillian, student ID: 3, credits: 0
+Course G100 - Computing
+labClass1.setInstructor("Barry Benson");
+labClass1.setRoom("b104");
+labClass1.setTime("Friday, 1:00pm");
+labClass1.printList();
+Lab class Friday, 1:00pm
+Instructor: Barry Benson   Room: b104
+Class list:
+Alex, student ID: 1, credits: 0
+Course G100 - Computing
+Daniel, student ID: 2, credits: 0
+Course G100 - Computing
+Gillian, student ID: 3, credits: 0
+Course G100 - Computing
+Number of students: 3
+student1.getCredits()
+    returned int 0
+student1.addCredits(20);
+student2.addCredits(20);
+student3.addCredits(20);
+student3.changeName("Gill");
