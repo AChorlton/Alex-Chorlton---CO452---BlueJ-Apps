@@ -1,0 +1,103 @@
+import java.util.Scanner;
+
+/**
+ * InputReader reads typed text input from the standard text terminal. 
+ * The text typed by a user is returned.
+ * 
+ * @author Alex Chorlton
+ * @version 10th January 2021
+ */
+public class InputReader
+{
+    private Scanner reader;
+
+    /**
+     * Create a new InputReader that reads text from the text terminal.
+     */
+    public InputReader()
+    {
+        reader = new Scanner(System.in);
+    }
+    
+    /**
+     * Prompt the user to enter an int
+     * Read an int from standard input 
+     * (the text terminal),
+     * and return it as an int.
+     *
+     * @return  A String typed by the user.
+     */
+    public int getInt(String prompt)
+    {
+        boolean isValid = false;
+        int number = 0;
+
+        while(isValid == false)
+        {
+            System.out.println(prompt);
+
+            try
+            {
+                number = reader.nextInt();
+                isValid = true;
+            }
+            catch(Exception e)
+            {
+                System.out.println("\nInvalid integer!\n");
+            }
+
+        }
+        return number;
+    }
+
+    /**
+     * Display a menu and Get an value between the min and max
+     * @param prompt the message to the user to enter an int
+     * @param min the minimum allowed value
+     * @param max the maximum allowed value
+     * @return the integer number
+     */
+    public int getInt(String prompt, int min, int max)
+    {
+        boolean isValid = false;
+        int number = 0;
+
+        while(isValid == false)
+        {
+            number = getInt(prompt);
+            if(number < min || number > max)
+            {
+                System.out.println("Number must be between " + min + " and " + max);
+            }
+            else
+                isValid = true;
+        }
+        return number;
+    }
+    
+    /**
+     * Get the user to enter a string and Read the line of text
+     * from standard input (the text terminal), and return a String.
+     *
+     * @return  A String typed by the user.
+     */
+    public String getString(String prompt)
+    {
+        String value = null;
+        boolean isValid = false;
+
+        while(isValid == false)
+        {
+            System.out.println(prompt);
+            value = reader.nextLine();
+
+            if(value.isBlank() || value.isEmpty())
+            {
+                System.out.println("Your input is blank");
+            }
+            else isValid = true;
+        }
+
+        return value;
+    }
+}

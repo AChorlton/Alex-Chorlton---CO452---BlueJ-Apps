@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=InputReader
+comment0.text=\r\n\ InputReader\ reads\ typed\ text\ input\ from\ the\ standard\ text\ terminal.\ \r\n\ The\ text\ typed\ by\ a\ user\ is\ returned.\r\n\ \r\n\ @author\ Alex\ Chorlton\r\n\ @version\ 10th\ January\ 2021\r\n
+comment1.params=
+comment1.target=InputReader()
+comment1.text=\r\n\ Create\ a\ new\ InputReader\ that\ reads\ text\ from\ the\ text\ terminal.\r\n
+comment2.params=prompt
+comment2.target=int\ getInt(java.lang.String)
+comment2.text=\r\n\ Prompt\ the\ user\ to\ enter\ an\ int\r\n\ Read\ an\ int\ from\ standard\ input\ \r\n\ (the\ text\ terminal),\r\n\ and\ return\ it\ as\ an\ int.\r\n\r\n\ @return\ \ A\ String\ typed\ by\ the\ user.\r\n
+comment3.params=prompt\ min\ max
+comment3.target=int\ getInt(java.lang.String,\ int,\ int)
+comment3.text=\r\n\ Display\ a\ menu\ and\ Get\ an\ value\ between\ the\ min\ and\ max\r\n\ @param\ prompt\ the\ message\ to\ the\ user\ to\ enter\ an\ int\r\n\ @param\ min\ the\ minimum\ allowed\ value\r\n\ @param\ max\ the\ maximum\ allowed\ value\r\n\ @return\ the\ integer\ number\r\n
+comment4.params=prompt
+comment4.target=java.lang.String\ getString(java.lang.String)
+comment4.text=\r\n\ Get\ the\ user\ to\ enter\ a\ string\ and\ Read\ the\ line\ of\ text\r\n\ from\ standard\ input\ (the\ text\ terminal),\ and\ return\ a\ String.\r\n\r\n\ @return\ \ A\ String\ typed\ by\ the\ user.\r\n
+numComments=5

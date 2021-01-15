@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Menu
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Menu\ here.\r\n\r\n\ @author\ Alex\ Chorlton\r\n\ @version\ 10th\ January\ 2021\r\n
+comment1.params=choices
+comment1.target=int\ getIntChoice(java.lang.String[])
+comment2.params=choices
+comment2.target=java.lang.String\ getStringChoice(java.lang.String[])
+comment3.params=choices
+comment3.target=void\ printChoices(java.lang.String[])
+numComments=4

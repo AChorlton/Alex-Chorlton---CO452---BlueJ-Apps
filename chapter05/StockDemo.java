@@ -1,15 +1,12 @@
 import java.util.Random;
 
 /**
- * Demonstrate the StockManager and Product classes.
+ * Demonstrate the StockManager and Item classes.
  * The demonstration becomes properly functional as
  * the StockManager class is completed.
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
- * 
- * @modifed by Derek Peacock
- * 22/Sep/2020
+ * @author Alex Chorlton
+ * @version 10th January 2021
  */
 public class StockDemo
 {
@@ -23,7 +20,7 @@ public class StockDemo
 
     /**
      * Create a StockManager and populate it with
-     * 10 sample products.
+     * 10 sample items.
      */
     public StockDemo(StockManager manager)
     {
@@ -31,46 +28,52 @@ public class StockDemo
         this.manager = manager;
         
         addTestData();
-        demoDeliverProducts();
+        demoDeliverItems();
     }
     
     public void addTestData()
     {
         int id = FIRST_ID;
-        manager.addProduct(new Product(id,"Gogle Pixel 4A"));
+        manager.addItem(new Item(id,"Intl Core I9-10900k"));
         
         id++; 
-        manager.addProduct(new Product(id,"Motorola G8 Power Lite"));
+        manager.addItem(new Item(id,"AMD Ryzen 9 5950x"));
         
         id++; 
-        manager.addProduct(new Product(id,"Motorola G8 Power"));
+        manager.addItem(new Item(id,"NVIDIA RTX 3090"));
         
         id++; 
-        manager.addProduct(new Product(id,"Huawei Mate 30 Pro"));
+        manager.addItem(new Item(id,"AMD Radeon RX 6900 XT"));
         
         id++; 
-        manager.addProduct(new Product(id,"Huawei Mate Xs 5G"));
+        manager.addItem(new Item(id,"Corsair ICUE 4000x RGB"));
         
         id++; 
-        manager.addProduct(new Product(id,"Sony Xperia 5"));
+        manager.addItem(new Item(id,"Cooler Master MB520"));
+        
+        id++; 
+        manager.addItem(new Item(id,"AMD Ryzen 5 5600x"));
+        
+        id++; 
+        manager.addItem(new Item(id,"Intel Core I5-10400F"));
     }
     
     public void runDemo()
     {
-       manager.printAllProducts();
-       demoDeliverProducts();
-       manager.printAllProducts();
-       demoSellProducts();
-       manager.printAllProducts();
+       manager.printAllItems();
+       demoDeliverItems();
+       manager.printAllItems();
+       demoSellItems();
+       manager.printAllItems();
        
-       manager.removeProduct(102);
+       manager.removeItem(102);
        
-       manager.renameProduct(103, "Google Pixel 4A");
-       //manager.restockLowProducts(3);
-       manager.searchProducts("Apple");
+       manager.renameItem(103, "Intel Core I9-10900k");
+       //manager.restockLowItems(3);
+       manager.searchItem("Corsiar");
     }
     
-    private void demoDeliverProducts()
+    private void demoDeliverItems()
     {
        for(int id = FIRST_ID; id < LAST_ID; id++)
        {
@@ -82,18 +85,18 @@ public class StockDemo
    
     /**
      * Demonstrate that the StockManager can sell all
-     * different quantities of all of the products
+     * different quantities of all of the items
      */
-    private void demoSellProducts()
+    private void demoSellItems()
     {
-        manager.printAllProducts();
+        manager.printAllItems();
         
         for(int id = FIRST_ID; id < LAST_ID; id++ )
         {
             int quantity = randomGenerator.nextInt(6) + 1;
-            manager.sellProduct(id, quantity);
+            manager.sellItem(id, quantity);
         }
         
-        manager.printAllProducts();
+        manager.printAllItems();
     }
 }

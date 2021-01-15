@@ -1,25 +1,25 @@
 /**
- * Model some details of a product sold by a company.
+ * Model some details of a Item sold by a company.
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * @author Alex Chorlton.
+ * @version 10th January 2021
  */
-public class Product
+public class Item
 {
-    // An identifying number for this product.
+    // An identifying number for this item.
     private int id;
-    // The name of this product.
+    // The name of this item.
     private String name;
-    // The quantity of this product in stock.
+    // The quantity of this item in stock.
     private int quantity;
 
     /**
-     * Constructor for objects of class Product.
+     * Constructor for objects of class Item.
      * The initial stock quantity is zero.
-     * @param id The product's identifying number.
-     * @param name The product's name.
+     * @param id The item's identifying number.
+     * @param name The item's name.
      */
-    public Product(int id, String name)
+    public Item(int id, String name)
     {
         this.id = id;
         this.name = name;
@@ -27,7 +27,7 @@ public class Product
     }
 
     /**
-     * @return The product's id.
+     * @return The item's id.
      */
     public int getID()
     {
@@ -35,7 +35,7 @@ public class Product
     }
 
     /**
-     * @return The product's name.
+     * @return The item's name.
      */
     public String getName()
     {
@@ -51,7 +51,7 @@ public class Product
     }
 
     /**
-     * Restock with the given amount of this product.
+     * Restock with the given amount of this item.
      * The current quantity is incremented by the given amount.
      * @param amount The number of new items added to the stock.
      *               This must be greater than zero.
@@ -70,7 +70,7 @@ public class Product
     }
 
     /**
-     * Sell one of these products.
+     * Sell one of these items.
      * An error is reported if there appears to be no stock.
      */
     public void sell(int amount)
@@ -95,7 +95,7 @@ public class Product
     }
 
     /**
-     * The products name should only be changed if there is
+     * The items name should only be changed if there is
      * a spelling mistake, otherwise it will cause confusion
      */
     public void setName(String newName)
