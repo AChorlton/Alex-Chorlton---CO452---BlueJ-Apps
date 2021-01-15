@@ -1,0 +1,574 @@
+StockApplication stockApp1 = new StockApplication();
+    200: Intl Core I9-10900k stock level: 0
+    Re-stocking by 2
+
+    201: AMD Ryzen 9 5950x stock level: 0
+    Re-stocking by 1
+
+    202: NVIDIA RTX 3090 stock level: 0
+    Re-stocking by 1
+
+    203: AMD Radeon RX 6900 XT stock level: 0
+    Re-stocking by 6
+
+    204: Corsair ICUE 4000x RGB stock level: 0
+    Re-stocking by 2
+
+    205: Cooler Master MB520 stock level: 0
+    Re-stocking by 1
+
+    206: AMD Ryzen 5 5600x stock level: 0
+    Re-stocking by 5
+
+    207: Intel Core I5-10400F stock level: 0
+    Re-stocking by 1
+
+    207: Intel Core I5-10400F stock level: 1
+    Re-stocking by 2
+
+stockApp1.run();
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Item
+
+
+ Please enter the item ID number > 
+111
+
+ Please enter the item name > 
+Your input is blank
+
+ Please enter the item name > 
+Samsung Galaxy S10
+    111: Samsung Galaxy S10 stock level: 0
+    Re-stocking by 1
+
+
+111: Samsung Galaxy S10 stock level: 1 added!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Item
+
+
+ Please enter the item ID number > 
+112
+
+ Please enter the item name > 
+Your input is blank
+
+ Please enter the item name > 
+Samsung Galaxy S20
+    112: Samsung Galaxy S20 stock level: 0
+    Re-stocking by 1
+
+
+112: Samsung Galaxy S20 stock level: 1 added!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Item
+
+
+ Please enter the item ID number > 
+113
+
+ Please enter the item name > 
+Your input is blank
+
+ Please enter the item name > 
+Apple iPhone 11
+    113: Apple iPhone 11 stock level: 0
+    Re-stocking by 1
+
+
+113: Apple iPhone 11 stock level: 1 added!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Item
+
+
+ Please enter the item ID number > 
+114
+
+ Please enter the item name > 
+Your input is blank
+
+ Please enter the item name > 
+Apple iPhone 12
+    114: Apple iPhone 12 stock level: 0
+    Re-stocking by 1
+
+
+114: Apple iPhone 12 stock level: 1 added!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Item
+
+
+ Please enter the item ID number > 
+115 Motorola G9 Plus
+
+ Please enter the item name > 
+    115:  Motorola G9 Plus stock level: 0
+    Re-stocking by 1
+
+
+115:  Motorola G9 Plus stock level: 1 added!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Item
+
+
+ Please enter the item ID number > 
+111
+
+ Please enter the item name > 
+Your input is blank
+
+ Please enter the item name > 
+new item
+    111: Samsung Galaxy S10 stock level: 1
+    Re-stocking by 1
+
+
+111: new item stock level: 0 added!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Item
+
+
+ Please enter the item ID number > 
+116
+
+ Please enter the item name > 
+Your input is blank
+
+ Please enter the item name > 
+
+Your input is blank
+
+ Please enter the item name > 
+test07
+    116: test07 stock level: 0
+    Re-stocking by 1
+
+
+116: test07 stock level: 1 added!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+5
+ Removing an old Item
+
+
+ Please enter the item ID number > 
+113
+
+ Item ID 113 REMOVED!
+
+
+113: Apple iPhone 11 stock level: 1 removed!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+5
+ Removing an old Item
+
+
+ Please enter the item ID number > 
+203
+
+ Item ID 203 REMOVED!
+
+
+203: AMD Radeon RX 6900 XT stock level: 6 removed!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+5
+ Removing an old Item
+
+
+ Please enter the item ID number > 
+1000
+
+ Item ID 116 REMOVED!
+
+
+116: test07 stock level: 1 removed!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+7
+    200: Intl Core I9-10900k stock level: 2
+    201: AMD Ryzen 9 5950x stock level: 1
+    202: NVIDIA RTX 3090 stock level: 1
+    204: Corsair ICUE 4000x RGB stock level: 2
+    205: Cooler Master MB520 stock level: 1
+    206: AMD Ryzen 5 5600x stock level: 5
+    207: Intel Core I5-10400F stock level: 3
+    111: Samsung Galaxy S10 stock level: 2
+    112: Samsung Galaxy S20 stock level: 1
+    114: Apple iPhone 12 stock level: 1
+    115:  Motorola G9 Plus stock level: 1
+    111: new item stock level: 0
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+2
+ Deliver an amount of an existing Item
+
+
+ Please enter the item ID number > 
+112
+
+ Please enter the order quantity > 
+8
+    112: Samsung Galaxy S20 stock level: 1
+    Re-stocking by 8
+
+
+8 of 112: Samsung Galaxy S20 stock level: 9 delivered!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+2
+ Deliver an amount of an existing Item
+
+
+ Please enter the item ID number > 
+112
+
+ Please enter the order quantity > 
+-7
+    112: Samsung Galaxy S20 stock level: 9
+Attempt to restock Samsung Galaxy S20 with a non-positive amount: -7
+    Re-stocking by -7
+
+
+-7 of 112: Samsung Galaxy S20 stock level: 9 delivered!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+3
+ Deliver an amount of an existing Item
+
+
+ Please enter the item ID number > 
+112
+
+    Please enter the order quantity > 
+2
+
+ Item ID 112 sold!
+
+
+    112: Samsung Galaxy S20 stock level: 7 2 sold!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+3
+ Deliver an amount of an existing Item
+
+
+ Please enter the item ID number > 
+112
+
+    Please enter the order quantity > 
+100
+Sold 7 of 112:Samsung Galaxy S20 93 orders not met!
+
+ Item ID 112 sold!
+
+
+    112: Samsung Galaxy S20 stock level: 0 100 sold!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+4
+
+ Please enter search term > 
+Your input is blank
+
+ Please enter search term > 
+Samsung
+ Printing items matching Samsung
+
+
+Searching for Samsung
+
+
+There are 0 items containing Samsung in their name!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+6
+
+ Please enter the minimum stock level > 
+2
+ Printing Stock with levels lower than 2
+
+ Printing all out of stock items
+
+200: Intl Core I9-10900k stock level: 2
+201: AMD Ryzen 9 5950x stock level: 1
+202: NVIDIA RTX 3090 stock level: 1
+204: Corsair ICUE 4000x RGB stock level: 2
+205: Cooler Master MB520 stock level: 1
+111: Samsung Galaxy S10 stock level: 2
+112: Samsung Galaxy S20 stock level: 0
+114: Apple iPhone 12 stock level: 1
+115:  Motorola G9 Plus stock level: 1
+111: new item stock level: 0
+
+There were 10 stock items with less than 2 items
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+8
