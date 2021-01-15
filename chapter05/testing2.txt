@@ -1,0 +1,76 @@
+stockApp1.run();
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Item
+
+
+ Please enter the item ID number > 
+1003
+
+ Please enter the item name > 
+Your input is blank
+
+ Please enter the item name > 
+AOC g27c1 27" Monitor
+    1003: AOC g27c1 27" Monitor stock level: 0
+    Re-stocking by 1
+
+
+1003: AOC g27c1 27" Monitor stock level: 1 added!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+7
+    200: Intl Core I9-10900k stock level: 1
+    201: AMD Ryzen 9 5950x stock level: 5
+    202: NVIDIA RTX 3090 stock level: 5
+    203: AMD Radeon RX 6900 XT stock level: 3
+    204: Corsair ICUE 4000x RGB stock level: 4
+    205: Cooler Master MB520 stock level: 5
+    206: AMD Ryzen 5 5600x stock level: 2
+    207: Intel Core I5-10400F stock level: 3
+    1003: AOC g27c1 27" Monitor stock level: 1
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+8
