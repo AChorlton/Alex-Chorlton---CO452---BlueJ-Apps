@@ -20,18 +20,18 @@ public class Ticket
         this.destination = destination;
     }
     
-    public int findPrice()
+    public int getPrice()
     {
         // put your code here
         return price;
     }
     
-    public String findDestination()
+    public String getDestination()
     {
         return destination;
     }
     
-    public Date findCurrentDate()
+    public Date getDate()
     {
         return currentDate;
     }

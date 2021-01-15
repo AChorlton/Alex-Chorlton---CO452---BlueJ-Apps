@@ -1,3 +1,5 @@
+
+import java.text.SimpleDateFormat;
 /**
  * TicketMachine models a ticket machine that issues
  * flat-fare tickets.
@@ -39,19 +41,16 @@ public class TicketMachine
    public void addAylesbury()
    {
       currentTicket=AYLESBURY_TICKET;
-      price = 220;
    }
    
    public void addAmersham()
    {
       currentTicket=AMERSHAM_TICKET;
-      price = 300;
    }
    
    public void addHighWycombe()
    {
       currentTicket=HIGH_WYCOMBE_TICKET;
-      price = 330;
    }
     
    public void balanceUpdate(int cash)
@@ -93,30 +92,17 @@ public class TicketMachine
         balanceUpdate(aCoin.getValue());
     }
     
-   public void insertACoin(int value)
-    {
-        switch(value)
-        {
-            case 10:
-                balanceUpdate(value);
-                break;
-            case 20:
-                balanceUpdate(value);
-                break;
-            case 100:
-                balanceUpdate(value);
-                break;
-            case 200:
-                balanceUpdate(value);
-            
-            default:
-            System.out.println(value+"Not Valid Coin");
-        }
-    } 
-    
    public int getPrice()
     {
-        return price;
+        if(currentTicket != null)
+        {
+            return currentTicket.getPrice();
+        }
+        else
+        {
+            System.out.println("You must select a destination");
+            return 0;
+        }
     }
     
    /**
@@ -133,6 +119,39 @@ public class TicketMachine
                                amount);
         }
     } 
+    
+    public int getBalance()
+    {
+        return balance;
+    }
+    
+    private void printHeading()
+    {
+        System.out.println();
+        System.out.println(" ##################################");
+        System.out.println(" #      Chorlton Trains");
+        System.out.println(" # Train Tickets - Pay Here");
+        System.out.println(" ##################################");
+        System.out.println();
+        
+    }
+    
+    public void printDestination()
+    {
+        printHeading();
+        System.out.println();
+        
+        System.out.print(" Avalailable to " + AYLESBURY_TICKET.getDestination());
+        System.out.println(" cost " + AYLESBURY_TICKET.getPrice());
+        
+        System.out.print(" Avalailable to " + AMERSHAM_TICKET.getDestination());
+        System.out.println(" cost " + AMERSHAM_TICKET.getPrice());
+        
+        System.out.print(" Avalailable to " + HIGH_WYCOMBE_TICKET.getDestination());
+        System.out.println(" cost " + HIGH_WYCOMBE_TICKET.getPrice());
+        
+        
+    }
    
    /**
      * Print a ticket if enough money has been inserted, and
@@ -141,13 +160,17 @@ public class TicketMachine
      */
    public void printTicket()
     {
+        int price = currentTicket.getPrice();
+        
+        String date = formatter.format(currentTicket.getDate());
+        String destination = currentTicket.getDestination();
         if(balance >= price) {
+            printHeading();
             // Simulate the printing of a ticket.
-            System.out.println("##################");
-            System.out.println("# The BlueJ Line");
-            System.out.println("# Ticket");
-            System.out.println("# " + price + " Pence.");
-            System.out.println("##################");
+            System.out.println(" Your Train Ticket For");
+            System.out.println(destination);
+            System.out.println("On Date: " + date);
+            System.out.println("Price: " + price + "pence");
             System.out.println();
 
             // Update the total collected with the price.
@@ -164,7 +187,7 @@ public class TicketMachine
 
    /**
      * Return the money in the balance.
-     * The balance is cleared.
+     * The balance is reset.
      */
     public int refundBalance()
     {
