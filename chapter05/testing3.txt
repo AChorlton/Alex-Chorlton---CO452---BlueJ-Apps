@@ -1,0 +1,271 @@
+stockApp2.run();
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+7
+    200: Intl Core I9-10900k stock level: 1
+    201: AMD Ryzen 9 5950x stock level: 4
+    202: NVIDIA RTX 3090 stock level: 3
+    203: AMD Radeon RX 6900 XT stock level: 5
+    204: Corsair ICUE 4000x RGB stock level: 5
+    205: Cooler Master MB520 stock level: 6
+    206: AMD Ryzen 5 5600x stock level: 6
+    207: Intel Core I5-10400F stock level: 10
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+5
+ Removing an old Item
+
+
+ Please enter the item ID number > 
+207
+
+ Item ID 207 REMOVED!
+
+
+207: Intel Core I5-10400F stock level: 10 removed!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+2
+ Deliver an amount of an existing Item
+
+
+ Please enter the item ID number > 
+200
+
+ Please enter the order quantity > 
+10
+    200: Intl Core I9-10900k stock level: 1
+    Re-stocking by 10
+
+
+10 of 200: Intl Core I9-10900k stock level: 11 delivered!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+3
+ Deliver an amount of an existing Item
+
+
+ Please enter the item ID number > 
+206
+
+    Please enter the order quantity > 
+1
+
+ Item ID 206 sold!
+
+
+    206: AMD Ryzen 5 5600x stock level: 5 1 sold!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+7
+    200: Intl Core I9-10900k stock level: 11
+    201: AMD Ryzen 9 5950x stock level: 4
+    202: NVIDIA RTX 3090 stock level: 3
+    203: AMD Radeon RX 6900 XT stock level: 5
+    204: Corsair ICUE 4000x RGB stock level: 5
+    205: Cooler Master MB520 stock level: 6
+    206: AMD Ryzen 5 5600x stock level: 5
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+4
+
+ Please enter search term > 
+Your input is blank
+
+ Please enter search term > 
+core
+ Printing items matching core
+
+
+Searching for core
+
+200: Intl Core I9-10900k stock level: 11
+
+There are 1 items containing core in their name!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+6
+
+ Please enter the minimum stock level > 
+2
+ Printing Stock with levels lower than 2
+
+ Printing all out of stock items
+
+
+There were 0 stock items with less than 2 items
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+4
+
+ Please enter search term > 
+Your input is blank
+
+ Please enter search term > 
+3
+ Printing items matching 3
+
+
+Searching for 3
+
+202: NVIDIA RTX 3090 stock level: 3
+
+There are 1 items containing 3 in their name!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+2
+ Deliver an amount of an existing Item
+
+
+ Please enter the item ID number > 
+202
+
+ Please enter the order quantity > 
+9
+    202: NVIDIA RTX 3090 stock level: 3
+    Re-stocking by 9
+
+
+9 of 202: NVIDIA RTX 3090 stock level: 12 delivered!
+
+    ******************************
+     Stock Management Application 
+       App05: by Alex Chorlton
+    ******************************
+
+    1. Add Item
+    2. Deliver Item
+    3. Sell Item
+    4. Search for Item
+    5. Remove Item
+    6. Print Low Stock
+    7. Print All Items
+    8. Quit
+
+    Enter choice number > 
+8
